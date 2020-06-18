@@ -1,0 +1,6 @@
+framework module Pods_FrontEndBeaconAds {
+  umbrella header "Pods-FrontEndBeaconAds-umbrella.h"
+
+  export *
+  module * { export * }
+}
