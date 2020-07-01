@@ -6,6 +6,9 @@ target 'FrontEndBeaconAds' do
   use_frameworks!
 
   pod 'LGButton'
+  pod 'FBSDKCoreKit'
+  pod 'FBSDKShareKit'
+  pod 'FBSDKLoginKit'
   # Pods for FrontEndBeaconAds
 
   # target 'FrontEndBeaconAdsTests' do

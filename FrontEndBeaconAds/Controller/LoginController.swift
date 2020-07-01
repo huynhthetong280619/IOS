@@ -26,19 +26,32 @@ class LoginController: UIViewController {
         fixCornerRadiusTextField(txtFieldPwd)
     }
     
-    //@Action: Login with account Facebook
-    @IBAction func signInFacebook(_ sender: Any) {
-        print("Login with Facebook")
-    }
     
+    @IBAction func signInFacebook(_ sender: Any) {
+        print("Login with Facebook");
+        let storyboard = UIStoryboard(name: "Main", bundle: nil);
+        let vc = storyboard.instantiateViewController(withIdentifier: "Dashboard") ; // MySecondSecreen the storyboard ID
+        vc.modalPresentationStyle = .fullScreen;
+        self.present(vc, animated: true, completion: nil);
+    }
     //@Action: Login with account Google
     @IBAction func signInGoogle(_ sender: Any) {
-        print("Login with Google")
+        print("Login with Google");
+        let storyboard = UIStoryboard(name: "Main", bundle: nil);
+        let vc = storyboard.instantiateViewController(withIdentifier: "Dashboard") ; // MySecondSecreen the storyboard ID
+        vc.modalPresentationStyle = .fullScreen;
+        self.present(vc, animated: true, completion: nil);
+
     }
     
     //@Action: Forget password
     @IBAction func forgetPwd(_ sender: Any) {
-        print("Forget password")
+        print("Forget password");
+        let storyboard = UIStoryboard(name: "Main", bundle: nil);
+        let vc = storyboard.instantiateViewController(withIdentifier: "Dashboard") ; // MySecondSecreen the storyboard ID
+        vc.modalPresentationStyle = .fullScreen;
+        self.present(vc, animated: true, completion: nil);
+
     }
     //@Action: set radius button
     private func fixCornerRadiusButton(_ button: UIButton){
