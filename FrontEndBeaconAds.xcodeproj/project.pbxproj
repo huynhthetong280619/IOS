@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8340729624AD8F0C00D6F723 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8340729424AD8F0C00D6F723 /* ItemCell.swift */; };
+		8340729724AD8F0C00D6F723 /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8340729524AD8F0C00D6F723 /* ItemCell.xib */; };
 		837E2152249B1FDA001CD93A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837E2151249B1FDA001CD93A /* AppDelegate.swift */; };
 		837E2154249B1FDA001CD93A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837E2153249B1FDA001CD93A /* SceneDelegate.swift */; };
 		837E2156249B1FDA001CD93A /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837E2155249B1FDA001CD93A /* LoginController.swift */; };
@@ -41,6 +43,8 @@
 		1A4887900C837F624BF6FC8A /* Pods-FrontEndBeaconAds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrontEndBeaconAds.release.xcconfig"; path = "Target Support Files/Pods-FrontEndBeaconAds/Pods-FrontEndBeaconAds.release.xcconfig"; sourceTree = "<group>"; };
 		3183333E46C4BCB72BC84D6A /* Pods-FrontEndBeaconAds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrontEndBeaconAds.debug.xcconfig"; path = "Target Support Files/Pods-FrontEndBeaconAds/Pods-FrontEndBeaconAds.debug.xcconfig"; sourceTree = "<group>"; };
 		7899C8EFA1DDD4C36D1D5572 /* Pods_FrontEndBeaconAds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FrontEndBeaconAds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8340729424AD8F0C00D6F723 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		8340729524AD8F0C00D6F723 /* ItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
 		837E214E249B1FDA001CD93A /* FrontEndBeaconAds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrontEndBeaconAds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		837E2151249B1FDA001CD93A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		837E2153249B1FDA001CD93A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +106,15 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		8340728C24AD864600D6F723 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				8340729424AD8F0C00D6F723 /* ItemCell.swift */,
+				8340729524AD8F0C00D6F723 /* ItemCell.xib */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
 		837E2145249B1FDA001CD93A = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +140,7 @@
 		837E2150249B1FDA001CD93A /* FrontEndBeaconAds */ = {
 			isa = PBXGroup;
 			children = (
+				8340728C24AD864600D6F723 /* Layout */,
 				837E2181249B216A001CD93A /* Controller */,
 				837E2151249B1FDA001CD93A /* AppDelegate.swift */,
 				837E2153249B1FDA001CD93A /* SceneDelegate.swift */,
@@ -272,6 +286,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8340729724AD8F0C00D6F723 /* ItemCell.xib in Resources */,
 				837E215E249B1FDF001CD93A /* LaunchScreen.storyboard in Resources */,
 				837E215B249B1FDF001CD93A /* Assets.xcassets in Resources */,
 				837E2159249B1FDA001CD93A /* Main.storyboard in Resources */,
@@ -343,6 +358,7 @@
 			files = (
 				837E2183249B21B2001CD93A /* DashboardController.swift in Sources */,
 				837E2187249B21F1001CD93A /* CreateAdsController.swift in Sources */,
+				8340729624AD8F0C00D6F723 /* ItemCell.swift in Sources */,
 				837E2156249B1FDA001CD93A /* LoginController.swift in Sources */,
 				837E2152249B1FDA001CD93A /* AppDelegate.swift in Sources */,
 				837E2154249B1FDA001CD93A /* SceneDelegate.swift in Sources */,
@@ -521,6 +537,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FrontEndBeaconAds/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -539,6 +556,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FrontEndBeaconAds/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
